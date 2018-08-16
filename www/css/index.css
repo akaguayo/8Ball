@@ -1,0 +1,67 @@
+body{
+
+}
+
+h1{
+
+}
+
+.ball {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+
+  border-bottom: 50px solid blue;
+
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+
+#certain {
+  background-image: url("../img/itIsCertain.png");
+  background-repeat: no-repeat;
+  background-size: 225px 225px;
+  position:absolute;             /* position in the center of the screen */
+  left:50%;
+  top:50%;
+  height:50px;                   /* text area height */
+  width:225px;                   /* text area width */
+  text-align:center;
+  padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+  margin:-115px 0px 0px -112px;
+}
+#decidedly {
+  background-image: url("../img/ItIsDecidedlySo.png");
+  background-repeat: no-repeat;
+  background-size: 225px 225px;
+  position:absolute;             /* position in the center of the screen */
+  left:50%;
+  top:50%;
+  height:50px;                   /* text area height */
+  width:225px;                   /* text area width */
+  text-align:center;
+  padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+  margin:-115px 0px 0px -112px;
+}
+#withoutDoubt {
+  background-image: url("../img/withoutADoubt.png");
+  background-repeat: no-repeat;
+  background-size: 225px 225px;
+  position:absolute;             /* position in the center of the screen */
+  left:50%;
+  top:50%;
+  height:50px;                   /* text area height */
+  width:225px;                   /* text area width */
+  text-align:center;
+  padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+  margin:-115px 0px 0px -112px;
+}

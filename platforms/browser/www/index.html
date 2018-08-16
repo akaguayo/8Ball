@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Magic 8-Ball</title>
+        <script>
+        window.onload=function()
+        {
+          document.getElementById('btnShake').addEventListener('click', shake);
+        }
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <h1>Magic 8-Ball<h1>
+        <div class= "ball" id= "ball" img src= "8.png"></div>
+        <div id="result"></div>
+        <div><button id="btnShake">Go</button>
+        </div>
+    </body>
+</html>
